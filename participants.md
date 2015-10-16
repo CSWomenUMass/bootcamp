@@ -1,6 +1,4 @@
-Stick your CS username below!
---
+# Stick your CS or github username below!
 
  - womenchairs
  - jfoley
-
