@@ -10,12 +10,24 @@ Note that if you're on Ubuntu Linux already and you want to try this Vagrant thi
 
 Fork this repository, and clone your copy once you're inside vagrant.
 
-    git clone git@github.com:${GITHUB_USER_NAME}/tech-skills-bootcamp.git 
+    https://github.com/${GITHUB_USER_NAME}/tech-skills-bootcamp.git 
+    cd tech-skills-bootcamp
 
 ## Add your username to the participants file!
 
 Open the file for editing with ``nano``. If you're familiar with ``vim`` or ``emacs`` we've installed those for you, too. ``nano`` is very simple to use, though.
 
+Add your CS or github username to the file; go ahead and make one up if you don't have one -- and don't delete anyone elses! Feel free to also record the date!
+
     nano participants.md
+
+Tell ``git``, the version control system that you've changed the file:
+
+    git add participants.md
+
+Now tell ``git`` you're done changing things for now, and push your changes up to your fork of the repository.
+
+    git commit # save changes locally
+    git push # send them up to the server
 
 
