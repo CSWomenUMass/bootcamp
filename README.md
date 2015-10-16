@@ -6,6 +6,10 @@ If you do not have access to a linux system, we strongly recommend using [Vagran
 
 Note that if you're on Ubuntu Linux already and you want to try this Vagrant thing out, you're going to want to get the on from the website and not the one from ``apt-get``, as it is [out of date and not compatible with most images](https://github.com/fideloper/Vaprobash/issues/322).
 
+## Start your vagrant instance
+
+Download a copy of this repository, and start ``vagrant`` inside the extracted directory, using ``vagrant up``.
+
 ## Fork this repository!
 
 Fork this repository, and clone your copy once you're inside vagrant.
@@ -13,6 +17,8 @@ Fork this repository, and clone your copy once you're inside vagrant.
     https://github.com/${GITHUB_USER_NAME}/tech-skills-bootcamp.git 
     cd tech-skills-bootcamp # go inside
     git remote add upstream https://github.com/CSWomenUMass/tech-skills-bootcamp.git # tell git that it came from a fork!
+
+You can now read these instructions from within your ``vagrant`` instance:
 
 ## Add your username to the participants file!
 
@@ -57,3 +63,4 @@ You're done for now. Some UNIX/bash review slides are coming soon, so there'll b
 
 Here's a challenge: Write a unix command to print out the number of participants in that file. A good starting point is ``wc -l`` which will count the number of lines in the file, but that will include the title as well! Maybe ``grep`` can help. Recall that google and stackoverflow can be a good reference, but so is ``man grep``.
 
+Don't forget to suspend your VM ``vagrant suspend`` or turn it off when you're done ``vagrant halt``.
