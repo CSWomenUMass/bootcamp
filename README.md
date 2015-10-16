@@ -61,6 +61,8 @@ Now, submit your changes as a pull request on github. One of the instructors wil
 
 You're done for now. Some UNIX/bash review slides are coming soon, so there'll be more refresher material to work through.
 
-Here's a challenge: Write a unix command to print out the number of participants in that file. A good starting point is ``wc -l`` which will count the number of lines in the file, but that will include the title as well! Maybe ``grep`` can help. Recall that google and stackoverflow can be a good reference, but so is ``man grep``.
+Here's a challenge: Write a unix command to print out the number of participants in that file. A good starting point is ``wc -l`` which will count the number of lines in the file, but that will include the title as well! Maybe ``grep`` can help. Recall that google and stackoverflow can be a good reference, but so is ``man grep``. There's also going to be solutions using ``tail``. ``awk``, ``sed``, ``bash``, or even ``python2``, but challenge yourself to learn a tool you're unfamiliar with.
+
+There are solutions in the ``challenge-solutions.md`` file, but no peeking! If you come up with something new, add it in and explain what it does!
 
 Don't forget to suspend your VM ``vagrant suspend`` or turn it off when you're done ``vagrant halt``.
