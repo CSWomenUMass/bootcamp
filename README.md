@@ -14,7 +14,7 @@ Download a copy of this repository, and start ``vagrant`` inside the extracted d
 
 Fork this repository, and clone your copy once you're inside vagrant.
 
-    https://github.com/${GITHUB_USER_NAME}/tech-skills-bootcamp.git 
+    git clone https://github.com/${GITHUB_USER_NAME}/tech-skills-bootcamp.git 
     cd tech-skills-bootcamp # go inside
     git remote add upstream https://github.com/CSWomenUMass/tech-skills-bootcamp.git # tell git that it came from a fork!
 
