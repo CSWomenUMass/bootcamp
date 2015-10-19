@@ -3,3 +3,5 @@
  - womenchairs
  - jfoley
  - etosch
+ - shamya
+ - strubell
