@@ -6,5 +6,6 @@
  - shamya
  - strubell
  - akobre01
- -tasnani
+ - tasnani
+ - sandysa
 
