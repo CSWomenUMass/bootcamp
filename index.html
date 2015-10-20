@@ -18,87 +18,8 @@
     </section>
 
     <section class="main-content">
-      <h3>
-        <span class="octicon octicon-book"></span>
-        README.md
-      </h3>
 
-      <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-tech-skills-bootcamp" class="anchor" href="#tech-skills-bootcamp" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tech Skills Bootcamp</h1>
-
-        <h2><a id="user-content-before-you-start" class="anchor" href="#before-you-start" aria-hidden="true"><span class="octicon octicon-link"></span></a>Before you start</h2>
-
-        <p>If you do not have access to a linux system, we strongly recommend using <a href="https://www.vagrantup.com/">Vagrant</a> in conjunction with <a href="https://www.virtualbox.org/">VirtualBox</a>. </p>
-
-        <p>Note that if you're on Ubuntu Linux already and you want to try this Vagrant thing out, you're going to want to get the one from the website and not the one from <code>apt-get</code>, as it is <a href="https://github.com/fideloper/Vaprobash/issues/322">out of date and not compatible with most images</a>.</p>
-
-        <h2><a id="user-content-start-your-vagrant-instance" class="anchor" href="#start-your-vagrant-instance" aria-hidden="true"><span class="octicon octicon-link"></span></a>Start your vagrant instance</h2>
-
-        <p>Download a copy of this repository, and start <code>vagrant</code> inside the extracted directory, using <code>vagrant up</code>.</p>
-
-        <h2><a id="user-content-fork-this-repository" class="anchor" href="#fork-this-repository" aria-hidden="true"><span class="octicon octicon-link"></span></a>Fork this repository!</h2>
-
-        <p>Fork this repository, and clone your copy once you're inside vagrant.</p>
-
-        <pre><code>git clone https://github.com/${GITHUB_USER_NAME}/tech-skills-bootcamp.git 
-                                  cd tech-skills-bootcamp # go inside
-                                  git remote add upstream https://github.com/CSWomenUMass/tech-skills-bootcamp.git # tell git that it came from a fork!
-        </code></pre>
-
-        <p>You can now read these instructions from within your <code>vagrant</code> instance:</p>
-
-        <h2><a id="user-content-add-your-username-to-the-participants-file" class="anchor" href="#add-your-username-to-the-participants-file" aria-hidden="true"><span class="octicon octicon-link"></span></a>Add your username to the participants file!</h2>
-
-        <p>Open the file for editing with <code>nano</code>. If you're familiar with <code>vim</code> or <code>emacs</code> we've installed those for you, too. <code>nano</code> is very simple to use, though.</p>
-
-        <p>Add your CS or github username to the file; go ahead and make one up if you don't have one -- and don't delete anyone elses! Feel free to also record the date!</p>
-
-        <pre><code>nano participants.md
-        </code></pre>
-
-        <p>Tell <code>git</code>, the version control system that you've changed the file, and that you're done making changes for this commit:</p>
-
-        <pre><code>git add participants.md
-                                  git commit # save changes locally
-        </code></pre>
-
-        <p>At this point, git may complain that you haven't configured it -- within vagrant, that is:</p>
-
-        <pre><code>*** Please tell me who you are.
-
-                                  Run
-
-                                    git config --global user.email "you@example.com"
-                                      git config --global user.name "Your Name"
-
-                                      Now tell ``git`` you're done changing things for now, and push your changes up to your fork of the repository.
-        </code></pre>
-
-        <p>One of the best features of <code>git</code> is that it tries to walk you through why it is confused and how to fix it. That doesn't mean it always explains things very good, so ask if you get stuck.</p>
-
-        <p>If <code>git</code> doesn't complain, it will pop open <code>nano</code> and ask you to write a message describing your changes. Mine was <code>This is so much fun :)</code>.</p>
-
-        <pre><code>git push # send them up to the server
-                                  git pull upstream master # pull any changes from upstream CSWomenUMass/tech-skills-bootcamp
-        </code></pre>
-
-        <p>At this point, you may have to merge other people's changes. If you get stuck, ask for help! <code>git</code> attempts to walk you through the process, but sometimes this can get complicated, if it thinks you edited the same line as other people.</p>
-
-        <pre><code>git push # if you merged
-        </code></pre>
-
-        <p>Now, submit your changes as a pull request on github. One of the instructors will accept your pull request, and you'll likely get an email notification about it.</p>
-
-        <h2><a id="user-content-congratulations" class="anchor" href="#congratulations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Congratulations!</h2>
-
-        <p>You're done for now. Some UNIX/bash review slides are coming soon, so there'll be more refresher material to work through.</p>
-
-        <p>Here's a challenge: Write a unix command to print out the number of participants in that file. A good starting point is <code>wc -l</code> which will count the number of lines in the file, but that will include the title as well! Maybe <code>grep</code> can help. Recall that google and stackoverflow can be a good reference, but so is <code>man grep</code>. There's also going to be solutions using <code>tail</code>. <code>awk</code>, <code>sed</code>, <code>bash</code>, or even <code>python2</code>, but challenge yourself to learn a tool you're unfamiliar with.</p>
-
-        <p>There are solutions in the <code>challenge-solutions.md</code> file, but no peeking! If you come up with something new, add it in and explain what it does!</p>
-
-        <p>Don't forget to suspend your VM <code>vagrant suspend</code> or turn it off when you're done <code>vagrant halt</code>.</p>
-      </article>
-                                  
+      Coming soon!
 
     </section>
       
