@@ -6,3 +6,5 @@
  - shamya
  - strubell
  - akobre01
+ - sandysa
+
