@@ -12,9 +12,12 @@ Download a copy of this repository, and start ``vagrant`` inside the extracted d
 
 ## Fork this repository!
 
-Fork this repository, and clone your copy once you're inside vagrant.
+Fork this repository, and clone your copy once you're inside vagrant. Note that the notation below: ``${GITHUB_USER_NAME}`` is based on bash variable substitution. Basically, if your username is ``cswomenumass``, then the url you need to clone is ``https://github.com/cswomenumass/tech-skills-bootcamp.git``.
 
     git clone https://github.com/${GITHUB_USER_NAME}/tech-skills-bootcamp.git 
+    
+Now go into the directory you just cloned the repository into:
+
     cd tech-skills-bootcamp # go inside
     git remote add upstream https://github.com/CSWomenUMass/tech-skills-bootcamp.git # tell git that it came from a fork!
 
