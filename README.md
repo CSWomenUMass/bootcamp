@@ -6,11 +6,23 @@ If you do not have access to a *nix system (e.g. OSX, Linux, BSD), we strongly r
 
 Note that if you're on Ubuntu Linux already and you want to try this Vagrant thing out, you're going to want to get the one from the website and not the one from ``apt-get``, as it is [out of date and not compatible with most images](https://github.com/fideloper/Vaprobash/issues/322).
 
+## General Advice
+
+### Type the commands
+
+It is recommended that you try to type commands rather than copy paste; it's why you take notes in class: it helps you remember in the future. However, we always recommend copying URLs, like the repository, since they're so long and easy to type incorrectly.
+
+### Don't worry about getting stuck!
+
+These instructions may be unclear, or something weird might happen! If you [post an issue](https://github.com/CSWomenUMass/tech-skills-bootcamp/issues), we will try to help over the internet. If you show up at a technical workshop, ask us for help and we are happy to sit with you! Mainly we want you to get started at home so you don't have to spend time downloading and installing things, but it's okay if you have trouble!
+
 ## Start your vagrant instance
 
 Download a copy of this repository, and start ``vagrant`` inside the extracted directory, using ``vagrant up``.
 
 ## Fork this repository!
+
+Forking a repository is a ``github`` concept. While ``git`` itself has the notion of different repositories, it doesn't provide *forking*, *accounts*, *logins*, or a *web page* like ``github`` does. This means that if ``github`` ever crashed for a day or went out of business, you would still have all your data, but you'd need to upload it somewhere else to get the nice interface back. In a minute, we'll tell ``git`` that our new repository is a *fork* of this one after we *clone* it, or copy it to our computer.
 
 Fork this repository, and clone your copy once you're inside vagrant. Note that the notation below: ``${GITHUB_USER_NAME}`` is based on bash variable substitution. Basically, if your username is ``cswomenumass``, then the url you need to clone is ``https://github.com/cswomenumass/tech-skills-bootcamp.git``.
 
