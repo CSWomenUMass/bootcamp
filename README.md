@@ -1,7 +1,7 @@
 # Tech Skills Bootcamp
 If you are following these instructions on your own and have questions (and are a UMass student), the most expedient way to get help is [over Slack](http://cswomen.slack.com/signup) using your `@umass.edu` or `@cs.umass.edu`  email addresses. Join the `#bootcamp` channel and someone will be around to help.
 
-If you notice errors or have feedback on the bootcamp topics themselves, feel free to [open an issue](https://github.com/CSWomenUMass/tech-skills-bootcamp/issues).
+If you notice errors or have feedback on the bootcamp topics themselves, feel free to [open an issue](https://github.com/CSWomenUMass/bootcamp/issues).
 
 ## Before you start
 
@@ -17,7 +17,7 @@ It is recommended that you try to type commands rather than copy paste; it's why
 
 ### Don't worry about getting stuck!
 
-These instructions may be unclear, or something weird might happen! If you [post an issue](https://github.com/CSWomenUMass/tech-skills-bootcamp/issues), we will try to help over the internet. If you show up at a technical workshop, ask us for help and we are happy to sit with you! Mainly we want you to get started at home so you don't have to spend time downloading and installing things, but it's okay if you have trouble!
+These instructions may be unclear, or something weird might happen! If you [post an issue](https://github.com/CSWomenUMass/bootcamp/issues), we will try to help over the internet. If you show up at a technical workshop, ask us for help and we are happy to sit with you! Mainly we want you to get started at home so you don't have to spend time downloading and installing things, but it's okay if you have trouble!
 
 ## Start your vagrant instance
 
@@ -27,14 +27,14 @@ Download a copy of this repository, and start ``vagrant`` inside the extracted d
 
 Forking a repository is a ``github`` concept. While ``git`` itself has the notion of different repositories, it doesn't provide *forking*, *accounts*, *logins*, or a *web page* like ``github`` does. This means that if ``github`` ever crashed for a day or went out of business, you would still have all your data, but you'd need to upload it somewhere else to get the nice interface back. In a minute, we'll tell ``git`` that our new repository is a *fork* of this one after we *clone* it, or copy it to our computer.
 
-Fork this repository, and clone your copy once you're inside vagrant. Note that the notation below: ``${GITHUB_USER_NAME}`` is based on bash variable substitution. Basically, if your username is ``cswomenumass``, then the url you need to clone is ``https://github.com/cswomenumass/tech-skills-bootcamp.git``.
+Fork this repository, and clone your copy once you're inside vagrant. Note that the notation below: ``${GITHUB_USER_NAME}`` is based on bash variable substitution. Basically, if your username is ``cswomenumass``, then the url you need to clone is ``https://github.com/cswomenumass/bootcamp.git``.
 
-    git clone https://github.com/${GITHUB_USER_NAME}/tech-skills-bootcamp.git 
+    git clone https://github.com/${GITHUB_USER_NAME}/bootcamp.git 
     
 Now go into the directory you just cloned the repository into:
 
     cd tech-skills-bootcamp # go inside
-    git remote add upstream https://github.com/CSWomenUMass/tech-skills-bootcamp.git # tell git that it came from a fork!
+    git remote add upstream https://github.com/CSWomenUMass/bootcamp.git # tell git that it came from a fork!
 
 You can now read these instructions from within your ``vagrant`` instance:
 
@@ -67,7 +67,7 @@ One of the best features of `git` is that it tries to walk you through why it is
 If ``git`` doesn't complain, it will pop open ``nano`` and ask you to write a message describing your changes. Mine was ``This is so much fun :)``.
 
     git push # send them up to the server
-    git pull upstream master # pull any changes from upstream CSWomenUMass/tech-skills-bootcamp
+    git pull upstream master # pull any changes from upstream CSWomenUMass/bootcamp
 
 At this point, you may have to merge other people's changes. If you get stuck, ask for help! ``git`` attempts to walk you through the process, but sometimes this can get complicated, if it thinks you edited the same line as other people.
 
