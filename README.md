@@ -1,5 +1,5 @@
 # Tech Skills Bootcamp
-If you are following these instructions on your own and have questions (and are a UMass student), the most expedient way to get help is [over Slack](cswomen.slack.com/signup) using your `@umass.edu` or `@cs.umass.edu`  email addresses. Join the `#bootcamp` channel and someone will be around to help.
+If you are following these instructions on your own and have questions (and are a UMass student), the most expedient way to get help is [over Slack](http://cswomen.slack.com/signup) using your `@umass.edu` or `@cs.umass.edu`  email addresses. Join the `#bootcamp` channel and someone will be around to help.
 
 If you notice errors or have feedback on the bootcamp topics themselves, feel free to [open an issue](https://github.com/CSWomenUMass/tech-skills-bootcamp/issues).
 
